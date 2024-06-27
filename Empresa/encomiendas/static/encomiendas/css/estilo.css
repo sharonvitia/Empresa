@@ -1,0 +1,63 @@
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #567dc5; /* Azul claro para el fondo */
+    color: #333; /* Color de texto principal */
+    font-family: 'Arial', sans-serif; /* Fuente del texto */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilo para el título h1 */
+h1 {
+    color: #007bff; /* Azul primario para el título */
+}
+
+/* Estilo para los botones */
+.btn {
+    background-color: #007bff; /* Azul primario para el fondo del botón */
+    border-color: #007bff; /* Color del borde */
+    color: #fff; /* Color del texto */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el ratón */
+    border-color: #0056b3; /* Color del borde al pasar el ratón */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #007bff; /* Azul primario para los enlaces */
+}
+
+a:hover {
+    color: #0056b3; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 100%; /* Imágenes responsivas que no se desborden */
+    height: auto; /* Altura automática según la proporción original */
+    display: block; /* Para evitar espacios adicionales debajo de las imágenes */
+}
+
+/* Estilo para los elementos de formulario */
+form {
+    margin-top: 20px; /* Espacio arriba */
+}
+
+/* Estilo para los elementos de lista */
+.list-group-item {
+    background-color: #e9ecef; /* Color de fondo gris claro */
+    border-color: #dee2e6; /* Color del borde */
+    color: #333; /* Color del texto */
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa; /* Color de fondo más claro al pasar el ratón */
+}

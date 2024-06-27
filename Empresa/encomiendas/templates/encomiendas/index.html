@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inicio</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'encomiendas/css/estilo.css'%}">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Bienvenido a Encomiendas</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <a href="{% url 'listar_encomiendas' %}" class="btn btn-primary btn-block">Ver Encomiendas</a>
+            </div>
+            <div class="col-md-6">
+                <a href="{% url 'nueva_encomienda' %}" class="btn btn-success btn-block">Nueva Encomienda</a>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-12">
+                <img src="https://via.placeholder.com/800x400.png?text=Encomiendas" class="img-fluid" alt="Encomiendas">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

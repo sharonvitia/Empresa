@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Encomiendas</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'encomiendas/css/estilo.css'%}">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Encomiendas</h1>
+        <ul class="list-group">
+            {% for encomienda in encomiendas %}
+                <li class="list-group-item">
+                    <strong>{{ encomienda.descripcion }}</strong> - {{ encomienda.cliente.nombre }}
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'index' %}" class="btn btn-secondary my-4">Volver</a>
+    </div>
+</body>
+</html>
